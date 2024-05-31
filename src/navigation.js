@@ -5,7 +5,7 @@ export const Navigation = () => {
         <div>
         <nav className="nav">
         <h1>Drop UI</h1>
-        <input className="input" type="text" placeholder="Search component" />
+        <input className="input" type="text" placeholder="Search for Components..." />
         <NavLink to="/" >Home</NavLink>
         <NavLink to="/components" >Components</NavLink>
       </nav>

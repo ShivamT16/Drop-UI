@@ -7,14 +7,14 @@ export const Components = () => {
          <h1>ComponentS</h1>
          <div className="components">
 
-         <Link className="cards">Avatar</Link>
-         <Link className="cards">Alert</Link>
-         <Link className="cards">Badge</Link>
-         <Link className="cards">Button</Link>
-         <Link className="cards">Card</Link>
-         <Link className="cards">Headings</Link>
-         <Link className="cards">Text</Link>
-         <Link className="cards">Image</Link>
+         <Link className="cards" to="/components/avatars" >Avatar</Link>
+         <Link className="cards" to="/components/alerts" >Alerts</Link>
+         <Link className="cards" to="" >Badge</Link>
+         <Link className="cards" to="" >Button</Link>
+         <Link className="cards" to="" >Card</Link>
+         <Link className="cards" to="" >Headings</Link>
+         <Link className="cards" to="" >Text</Link>
+         <Link className="cards" to="" >Image</Link>
 
          </div>
         </div>
