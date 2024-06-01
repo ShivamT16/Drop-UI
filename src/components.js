@@ -9,8 +9,8 @@ export const Components = () => {
 
          <Link className="cards" to="/components/avatars" >Avatar</Link>
          <Link className="cards" to="/components/alerts" >Alerts</Link>
-         <Link className="cards" to="" >Badge</Link>
-         <Link className="cards" to="" >Button</Link>
+         <Link className="cards" to="/components/badges" >Badge</Link>
+         <Link className="cards" to="/components/buttons" >Button</Link>
          <Link className="cards" to="" >Card</Link>
          <Link className="cards" to="" >Headings</Link>
          <Link className="cards" to="" >Text</Link>

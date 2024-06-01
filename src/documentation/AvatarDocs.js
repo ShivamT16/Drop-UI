@@ -20,7 +20,7 @@ export const AvatarDocs = () => {
 
         <p>How to use ?</p>
 
-        <img style={{ height: "15rem", borderRadius: "2rem"}} src={media} alt="alerts"/>
+        <img style={{ height: "15rem", borderRadius: "2rem"}} src={media} alt="avatar"/>
 
         <p>The avatar component consists of name, size, source and type attributes.</p>
         <p>Name and Source are the names you want to give to your avatar and the source image for the avatar respectively.</p>

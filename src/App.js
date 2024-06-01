@@ -5,6 +5,8 @@ import { Components } from './components';
 import { Navigation } from './navigation';
 import { AlertDocs } from './documentation/AlertDocs';
 import { AvatarDocs } from './documentation/AvatarDocs';
+import { BadgeDocs } from './documentation/BadgeDocs';
+import { ButtonDocs } from './documentation/ButtonDocs';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/components" element={<Components />} />
         <Route path="/components/avatars" element={<AvatarDocs />} />
         <Route path="/components/alerts" element={<AlertDocs />} />
+        <Route path="/components/badges" element={<BadgeDocs />} />
+        <Route path="/components/buttons" element={<ButtonDocs />} />
       </Routes>
 
      </Router>
