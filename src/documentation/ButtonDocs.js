@@ -20,7 +20,7 @@ export const ButtonDocs = () => {
             <img src={primaryBtn} alt="button" style={{ height: "15rem", borderRadius: "2rem"}} />
 
             <h2>Link Buttons: </h2>
-            <LinkButton type="outlined-btn" destination="https://gooogle.com" > Google </LinkButton>
+            <LinkButton type="outlined-btn" destination="https://google.com" > Google </LinkButton>
             <LinkButton type="elevated-btn" destination="/" > Home Page </LinkButton>
             <LinkButton type="elevated-btn" destination="/components" > Components </LinkButton>
 

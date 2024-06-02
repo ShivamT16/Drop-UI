@@ -7,6 +7,8 @@ import { AlertDocs } from './documentation/AlertDocs';
 import { AvatarDocs } from './documentation/AvatarDocs';
 import { BadgeDocs } from './documentation/BadgeDocs';
 import { ButtonDocs } from './documentation/ButtonDocs';
+import { CardDocs } from './documentation/CardDocs';
+import { HeadingDocs } from './documentation/HeadingDocs';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/components/alerts" element={<AlertDocs />} />
         <Route path="/components/badges" element={<BadgeDocs />} />
         <Route path="/components/buttons" element={<ButtonDocs />} />
+        <Route path="/components/cards" element={<CardDocs />} />
+        <Route path="/components/headings" element={<HeadingDocs />} />
       </Routes>
 
      </Router>

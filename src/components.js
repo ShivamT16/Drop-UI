@@ -11,8 +11,8 @@ export const Components = () => {
          <Link className="cards" to="/components/alerts" >Alerts</Link>
          <Link className="cards" to="/components/badges" >Badge</Link>
          <Link className="cards" to="/components/buttons" >Button</Link>
-         <Link className="cards" to="" >Card</Link>
-         <Link className="cards" to="" >Headings</Link>
+         <Link className="cards" to="/components/cards" >Card</Link>
+         <Link className="cards" to="/components/headings" >Headings</Link>
          <Link className="cards" to="" >Text</Link>
          <Link className="cards" to="" >Image</Link>
 
