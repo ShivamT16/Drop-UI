@@ -3,10 +3,13 @@ import primaryBtn from "./media/primaryBtn.png"
 import linkBtn from "./media/linkBtn.png"
 import iconBtn from "./media/iconBtn.png"
 import floatBtn from "./media/floatBtn.png"
+import SideBar from "../sideBar"
 
 export const ButtonDocs = () => {
     return(
-        <div>
+        <div className="div-container">
+            <SideBar />
+            <div className="container">
             <h1>Button</h1>
             <p>Buttons allow users to take actions, and make choices, with a single tap.</p>
 
@@ -46,8 +49,7 @@ export const ButtonDocs = () => {
             <p>How to use?</p>
 
             <img src={floatBtn} alt="button" style={{ height: "15rem", borderRadius: "2rem"}} />
-
-
+        </div>
         </div>
     )
 }

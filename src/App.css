@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  margin: -1rem 1rem 0rem
 }
 .nav{
   display: flex;
@@ -8,9 +8,29 @@
   justify-content: space-around;
   font-size: larger;
 }
+.navv{
+  text-decoration: none;
+  font-size: larger;
+  color: darkslateblue;
+  font-weight: 800;
+  padding: 0.4rem 1rem;
+}
+.navv:hover{
+  color: darkblue;
+  background-color:aquamarine;
+  border-radius: 2rem;
+}
 .input{
   font-size: 1rem;
   padding: 0.4rem;
   width: 16rem;
   border-radius: 1rem;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+  border-right: 2px solid black;
 }

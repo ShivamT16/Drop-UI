@@ -4,6 +4,7 @@
     justify-content: space-around;
     margin: 0rem 6rem;
     font-size: xx-large;
+    text-align: center;
 }
 .cards{
     border: 2px solid gainsboro;

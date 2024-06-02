@@ -1,8 +1,11 @@
 import { Heading } from "../components/Heading/Heading"
+import SideBar from "../sideBar"
 
 export const HeadingDocs = () => {
     return(
-        <div>
+        <div className="div-container">
+            <SideBar />
+            <div className="container">
             <h1>Heading</h1>
             <p>Headings are essential to elevate the typography and hierarchy of your web application. With a wide range of heading styles, sizes, and variations, it simplifies the creation of clear and visually engaging content structures.</p>
 
@@ -13,6 +16,7 @@ export const HeadingDocs = () => {
             <h5>Drop UI heading</h5>
             <h6>Drop UI heading</h6>
             <Heading type="italic">Drop UI heading</Heading>
+         </div>
         </div>
     )
 }

@@ -1,8 +1,11 @@
 import { BadgeCard, Card, DismissCard, HorizontalCard, OverlayCard, ShadowCard, VerticalCard } from "../components/Card/Card"
+import SideBar from "../sideBar"
 
 export const CardDocs = () => {
     return(
-        <div>
+        <div className="div-container">
+            <SideBar />
+            <div className="container">
             <h1>Cards</h1>
 
             <p>Cards are surfaces that display content and actions on a single topic.</p>
@@ -27,9 +30,8 @@ export const CardDocs = () => {
 
             <h2> Cards with shadow </h2>
             <ShadowCard source="" heading="" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</ShadowCard>
-
-
-
+            
+            </div>
         </div>
     )
 }

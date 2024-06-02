@@ -3,10 +3,13 @@ import { Avatar } from "../components/Avatar/Avatar"
 import { AvatarBadge, Badge } from "../components/Badge/Badge"
 import media from "./media/badge.png"
 import aMedia from "./media/avatarBadge.png"
+import SideBar from "../sideBar"
 
 export const BadgeDocs = () => {
     return(
-        <div>
+        <div className="div-container">
+            <SideBar />
+            <div className="container">
             <h1>Badge</h1>
             <p>Badge generates a small badge to the top-right of its children.</p>
 
@@ -45,7 +48,7 @@ export const BadgeDocs = () => {
         <p>Your avatar component should be wrapped inside the avatar badge component.</p>
         <p>Type - takes in four values to determine the user's status. They are, 'online', 'offline', 'busy' and 'away'.</p>
         <p>Please use the avatars on size, 'medium' for the best user experience.</p>
-
+        </div>
         </div>
     )
 }

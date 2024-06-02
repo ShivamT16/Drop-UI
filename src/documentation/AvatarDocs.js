@@ -1,9 +1,12 @@
 import { Avatar } from "../components/Avatar/Avatar"
+import SideBar from "../sideBar"
 import media from "./media/avatar.png"
 
 export const AvatarDocs = () => {
     return(
-        <div>
+        <div className="div-container">
+            <SideBar />
+            <div className="container">
             <h1>Avatar</h1>
             <p>Avatars are found throughout material design with uses in everything from tables to dialog menus.</p>
         <h2>Normal Avatars:</h2>
@@ -26,7 +29,7 @@ export const AvatarDocs = () => {
         <p>Name and Source are the names you want to give to your avatar and the source image for the avatar respectively.</p>
         <p>Size can take three values, 'small', 'medium' and 'large'.</p>
         <p>Type can take two values, 'normal' and 'with-border'. This determines if you want your avatars to have a border or not.</p>
-
+        </div>
         </div>
     )
 }

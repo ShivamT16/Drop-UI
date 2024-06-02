@@ -1,0 +1,12 @@
+.home-main{
+    text-align: center;
+}
+.home-btn{
+    text-decoration: none;
+    font-size: x-large;
+    padding: 0.5rem 2rem;
+    color: whitesmoke;
+    border-radius: 2rem;
+    background-color: blue;
+    font-style: italic;
+}

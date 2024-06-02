@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom"
+import "./home.css"
 
 export const Home = () => {
     return(
-        <div>
-            <h2>Drop UI</h2>
-            <h3>A CSS Component Library</h3>
-            <p>Let’s delve into the exciting features of your new CSS library.</p>
-            <Link to ="/components">Get Started</Link>
+        <div className="home-main">
+            <h1>Drop 💧 UI</h1>
+            <h2>A CSS Component Library</h2>
+            <h3>Let’s dive into the exciting features of this new CSS library.</h3>
+            <br />
+            <Link className="home-btn" to ="/components">Get Started</Link>
         </div>
     )
 }
