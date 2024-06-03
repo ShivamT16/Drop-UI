@@ -1,19 +1,23 @@
 import { Link } from "react-router-dom"
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
+import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
+import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
+import "./Button.css"
 
 const getIcon = (icon,size) => {
     switch(icon.toLowerCase()){
         case "mail": 
-            return {icon: ""}
+            return {icon: <EmailOutlinedIcon /> }
         case "logout":
-            return {icon: ""}
+            return {icon: <LogoutOutlinedIcon /> }
         case "draft": 
-            return {icon: ""}
+            return {icon: <CreateOutlinedIcon /> }
         case "add":
-            return {icon: ""}
+            return {icon: <AddOutlinedIcon /> }
         default: 
             return null;
     }
-
 }
 
 export const Button = ({type, children}) => {

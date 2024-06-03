@@ -25,21 +25,21 @@ export const ButtonDocs = () => {
             <h2>Link Buttons: </h2>
             <LinkButton type="outlined-btn" destination="https://google.com" > Google </LinkButton>
             <LinkButton type="elevated-btn" destination="/" > Home Page </LinkButton>
-            <LinkButton type="elevated-btn" destination="/components" > Components </LinkButton>
+            <LinkButton type="filled-btn" destination="/components" > Components </LinkButton>
 
             <p>How to use?</p>
 
             <img src={linkBtn} alt="button" style={{ height: "15rem", borderRadius: "2rem"}} />
 
             <h2>Icon Button: </h2>
-            <IconButton type={"outlined-btn"} icon={"mail"}>Icon button</IconButton>
-            <IconButton type={"filled-btn"} icon={"logout"}>Logout</IconButton>
-            <IconButton type={"elevated-btn"} icon={"draft"}>New</IconButton>
-            <IconButton type={"filled-btn"} icon={"add"}>Add</IconButton>
+            <IconButton type= "outlined-btn" icon={"mail"}>Icon button</IconButton>
+            <IconButton type= "filled-btn" icon={"logout"}>Logout</IconButton>
+            <IconButton type= "elevated-btn" icon={"draft"}>New</IconButton>
+            <IconButton type= "filled-btn" icon={"add"}>Add</IconButton>
 
             <p>How to use?</p>
 
-            <img src={iconBtn} alt="button" style={{ height: "20rem", borderRadius: "2rem"}} />
+            <img src={iconBtn} alt="button" style={{ height: "18rem", borderRadius: "2rem"}} />
 
             <h2>Floating Action Button</h2>
 

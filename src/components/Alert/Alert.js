@@ -1,24 +1,27 @@
+import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
+import "./Alert.css"
+
 export const Alert = ({severity, children}) => {
     const alertType = (severity) => {
         switch(severity.toLowerCase()) {
             case "success":
                 return {
-                    icon: "",
+                    icon:  "✅" ,
                     class: "success"
                 }
             case "error":
                 return{
-                    icon: "",
+                    icon: "❌" ,
                     class: "error"
                 }
             case "warning":
                 return {
-                    icon: "",
+                    icon: "⚠️" ,
                     class: "warning"
                 }
             case "info":
                 return {
-                    icon: "",
+                    icon: <InfoOutlinedIcon /> ,
                     class: "info"
                 }
             default:
@@ -28,7 +31,7 @@ export const Alert = ({severity, children}) => {
     const alertData = alertType(severity)
     return(
         <div className={alertData.class} >
-            <h2>{children}</h2>
+            <h2> {alertData.icon} {children}</h2>
         </div>
     )
 }

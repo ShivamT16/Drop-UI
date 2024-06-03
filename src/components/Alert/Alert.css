@@ -1,0 +1,30 @@
+.success {
+    background-color: greenyellow;
+    color: darkgreen;
+    width: 300px;
+    padding: 0rem 2rem;
+    border-radius: 10px;
+}
+.error {
+    background-color: lightcoral;
+    color: maroon;
+    width: 300px;
+    padding: 0rem 2rem;
+    border-radius: 10px;
+}
+.warning {
+    background-color: rgb(240, 211, 82);
+    color: rgb(187, 187, 10);
+    width: 300px;
+    padding: 0rem 2rem;
+    display: flex;
+    border-radius: 10px;
+}
+.info {
+    background-color: skyblue;
+    color: white;
+    width: 300px;
+    padding: 0rem 2rem;
+    display: flex;
+    border-radius: 10px;
+}

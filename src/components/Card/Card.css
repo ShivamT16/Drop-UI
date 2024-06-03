@@ -1,0 +1,121 @@
+.outlined{
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.outlined p {
+    font-size: 18px;
+}
+
+.filled{
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    min-height: 100px;
+    background-color: skyblue;
+    color: black
+}
+
+.filled p {
+    font-size: 18px;
+}
+
+.elevated{
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    min-height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.elevated p {
+    font-size: 18px;
+}
+
+.dismiss-icon{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.overlay-card{
+    position: relative;
+}
+
+.overlay-card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    width: 400px;
+    color: white;
+}
+
+.b-card{
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    border-radius: 2rem;
+}
+.b-heading {
+    display: flex;
+    gap: 10rem
+}
+.b-heading p{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.b-heading span{
+    height: min-content;
+    background-color: orangered;
+    color: white;
+    padding: 3px 6px;
+}
+
+.v-card{
+    border: 1px solid black;
+    width: min-content;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+.v-card img{
+    height: 300px;
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.h-card{
+    border: 1px solid black;
+    display: flex;
+    height: min-content;
+    width: 500px;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+.h-card img{
+    height: 300px;
+    width: 300px;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.shadow-card{
+    border: 1px solid gray;
+    box-shadow: 10px 10px 10px lightgray;
+    width: min-content;
+    padding: 1rem;
+}
+.shadow-card img{
+    height: 20rem;
+    width: 20rem;
+}

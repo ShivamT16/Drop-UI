@@ -1,0 +1,9 @@
+.normal{
+    border-radius: 50%;
+    margin: 0rem 1rem;
+}
+.border{
+    border-radius: 50%;
+    border: 5px solid black;
+    margin: 0rem 1rem;
+}

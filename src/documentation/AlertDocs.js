@@ -17,7 +17,7 @@ export const AlertDocs = () => {
             <li>Information</li>
             <p>Alerts are as follows:</p>
 
-            <div>
+            <div className="docs">
             <Alert severity={"success"} >This is a success alert !!</Alert>
             <Alert severity={"error"} >This is a error alert !!</Alert>
             <Alert severity={"warning"} >This is a warning alert !!</Alert>

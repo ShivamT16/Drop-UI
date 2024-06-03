@@ -1,5 +1,6 @@
 import { Heading } from "../components/Heading/Heading"
 import SideBar from "../sideBar"
+import heading from "./media/heading.png"
 
 export const HeadingDocs = () => {
     return(
@@ -15,7 +16,12 @@ export const HeadingDocs = () => {
             <h4>Drop UI heading</h4>
             <h5>Drop UI heading</h5>
             <h6>Drop UI heading</h6>
-            <Heading type="italic">Drop UI heading</Heading>
+            <Heading type="italic" >Drop UI heading</Heading>
+            <br />
+            <p>How to use ?</p>
+
+            <img style={{ height: "25rem", borderRadius: "2rem"}} src={heading} alt="avatar"/>
+
          </div>
         </div>
     )

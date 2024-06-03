@@ -1,3 +1,5 @@
+import "./Avatar.css"
+
 export const Avatar = ({name,source,size,type}) => {
 
     const findSize = (size) => {
