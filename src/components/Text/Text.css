@@ -1,0 +1,37 @@
+.filled-text{
+    background-color: skyblue;
+    border-bottom: 2px solid gray;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0rem 2rem;
+    font-size: 20px;
+    text-align: left;
+    outline: none;
+    resize: none;
+    min-width: 300px;
+}
+
+.filled-text:focus{
+    border-bottom: 2px solid gray;
+    border-radius: 10px;
+}
+
+.filled-text::placeholder{
+    color: white;
+}
+
+.outline-text{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: left;
+    outline: none;
+    resize: none;
+    min-width: 300px;
+}
+
+.outline-text:focus{
+    border: 2px solid grey;
+}

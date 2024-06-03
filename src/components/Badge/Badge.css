@@ -1,0 +1,77 @@
+.badge{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0rem 1rem 
+}
+
+.badge span{
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    font-weight: bold;
+    width: 21px;
+    height: 21px;
+    background-color: skyblue;
+    border-radius: 40%;
+    text-align: center;
+}
+
+.badge label{
+    font-weight: bold;
+}
+
+.avatar-badge{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1rem;  
+}
+
+.online{
+    position: absolute;
+    top: 65px;
+    left: 5.2rem;
+    font-weight: bold;
+    width: 21px;
+    height: 21px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.away{
+    position: absolute;
+    top: 65px;
+    left: 5.2rem;
+    font-weight: bold;
+    width: 21px;
+    height: 21px;
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.busy {
+        position: absolute;
+        top: 65px;
+        left: 5.2rem;
+        font-weight: bold;
+        width: 21px;
+        height: 21px;
+        background-color: red;
+        border-radius: 50%;
+        text-align: center;
+}
+
+.offline {
+    position: absolute;
+    top: 65px;
+    left: 5.2rem;
+    font-weight: bold;
+    width: 21px;
+    height: 21px;
+    background-color: grey;
+    border-radius: 50%;
+    text-align: center;
+}

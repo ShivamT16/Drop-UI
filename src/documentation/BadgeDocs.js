@@ -20,7 +20,8 @@ export const BadgeDocs = () => {
             <Badge icon="chat" count="20" label="chat" />
             <Badge icon="meeting" count="2" label="meet" />
             </div>
-
+            
+            <p>How to use ?</p>
             <img src={media} alt="badge" style={{ height: "15rem", borderRadius: "2rem"}} />
 
             <h2>Avatar Badges:</h2>
@@ -43,6 +44,7 @@ export const BadgeDocs = () => {
         <p>Label - takes the label value, that will be printed below your icon.</p>
         <p>Avatar Badges should be used in tandem with the <Link to="/components/avatars">Avatar</Link> component.</p>
 
+        <p>How to use ?</p>
         <img src={aMedia} alt="badge" style={{ height: "20rem", borderRadius: "2rem"}} />
         
         <p>Your avatar component should be wrapped inside the avatar badge component.</p>

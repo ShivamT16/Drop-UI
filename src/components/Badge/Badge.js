@@ -1,18 +1,23 @@
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
+import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
+import "./Badge.css"
+
 export const Badge = ({icon, count, label}) => {
 
     const selectIcon = (icon) => {
         switch(icon.toLowerCase()){
             case "message":
                 return{
-                    icon: ""
+                    icon: <EmailOutlinedIcon fontSize='large' />
                 }
             case "chat":
                 return{
-                    icon: ""
+                    icon: <ChatBubbleOutlineOutlinedIcon fontSize='large' />
                 }
             case "meeting":
                 return{
-                    icon: ""
+                    icon: <GroupsOutlinedIcon fontSize='large' />
                 }
             default:
                 return null
@@ -20,7 +25,7 @@ export const Badge = ({icon, count, label}) => {
     }
     const getIcon = selectIcon(icon)
     return(
-        <div>
+        <div className='badge'>
             <span>{count}</span>
             <icon>{getIcon.icon}</icon>
             <label>{label}</label>
@@ -30,7 +35,7 @@ export const Badge = ({icon, count, label}) => {
 
 export const AvatarBadge = ({children, type}) => {
     return(
-        <div>
+        <div className="avatar-badge">
             <span className={type} ></span>
             {children}
         </div>

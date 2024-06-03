@@ -29,7 +29,8 @@ export const CardDocs = () => {
             <DismissCard type="filled" heading="Lorem" >Lorem ipsum dolor sit amet </DismissCard>
             </div>
 
-            <img src={cards1} alt="button" className="card1-img" />
+            <p>How to use ?</p>
+            <img src={cards1} alt="cards" className="card1-img" />
 
             <h2> Cards with text overlay </h2>
             <OverlayCard source="https://cdn270-genai.picsart.com/9af34552-8bf8-4471-b959-672946e8d4c2/455021166024201.jpg" name="overLay" overlayText="Lorem" >Lorem ipsum dolor sit amet,</OverlayCard>
@@ -43,7 +44,8 @@ export const CardDocs = () => {
             <h2> Cards with shadow </h2>
             <ShadowCard source="https://cdn270-genai.picsart.com/9af34552-8bf8-4471-b959-672946e8d4c2/455021166024201.jpg" heading="Lorem" >Lorem ipsum dolor sit amet, consectetur adipiscing elit </ShadowCard>
             <br />
-            <img src={cards2} alt="button" style={{ height: "30rem", borderRadius: "2rem"}} />
+            <p>How to use?</p>
+            <img src={cards2} alt="cards" style={{ height: "30rem", borderRadius: "2rem"}} />
             </div>
         </div>
     )

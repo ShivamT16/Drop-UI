@@ -20,7 +20,7 @@ export const ImageDocs = () => {
 
             <p>How to use?</p>
 
-            <img style={{ height: "15rem", borderRadius: "2rem"}} src={image} alt="avatar"/>
+            <img style={{ height: "15rem", borderRadius: "2rem"}} src={image} alt="imgdoc"/>
 
          </div>
         </div>

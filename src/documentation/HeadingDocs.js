@@ -20,7 +20,7 @@ export const HeadingDocs = () => {
             <br />
             <p>How to use ?</p>
 
-            <img style={{ height: "25rem", borderRadius: "2rem"}} src={heading} alt="avatar"/>
+            <img style={{ height: "25rem", borderRadius: "2rem"}} src={heading} alt="heading"/>
 
          </div>
         </div>
