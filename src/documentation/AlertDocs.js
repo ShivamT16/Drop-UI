@@ -8,7 +8,7 @@ export const AlertDocs = () => {
         <div className="div-container">
             <SideBar />
             <div className="container">
-            <h1>Alerts</h1>
+            <h1 className="heading">Alerts</h1>
             <p>Alerts display brief messages for the user without interrupting their use of the app.Provide clear and contextual feedback messages for common user actions using a variety of available and adaptable alert messages.</p>
             <p>Alerts can be managed and displayed according to their severity levels. Severity levels are categorized as follows:</p>
             <li>Success</li>

@@ -4,7 +4,7 @@ import "./home.css"
 export const Home = () => {
     return(
         <div className="home-main">
-            <h1>Drop 💧 UI</h1>
+            <p className="home-h1">Drop 💧 UI</p>
             <h2>A CSS Component Library</h2>
             <h3>Let’s dive into the exciting features of this new CSS library.</h3>
             <br />

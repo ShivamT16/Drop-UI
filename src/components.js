@@ -4,7 +4,7 @@ import "./components.css"
 export const Components = () => {
     return(
         <div>
-         <h1>ComponentS</h1>
+         <p className="h1">ComponentS</p>
          <div className="components">
 
          <Link className="cards" to="/components/avatars" >Avatar</Link>

@@ -1,12 +1,14 @@
 .App {
-  margin: -1rem 1rem 0rem
+  margin: -1rem 1rem 0rem;
 }
 .nav{
   display: flex;
-  align-items: baseline;
+  align-items:baseline;
   flex-wrap: wrap;
   justify-content: space-around;
   font-size: larger;
+  border: 1px solid transparent; 
+  box-shadow: 0 4px 2px -2px lightgray 
 }
 .navv{
   text-decoration: none;
@@ -17,7 +19,7 @@
 }
 .navv:hover{
   color: darkblue;
-  background-color:aquamarine;
+  background-color:skyblue;
   border-radius: 2rem;
 }
 .input{
