@@ -10,7 +10,7 @@ const SideBar = () => {
          <Link style={{textDecoration: "none", color: "blue"}} to="/components/buttons" >Button</Link>
          <Link style={{textDecoration: "none", color: "blue"}} to="/components/cards" >Card</Link>
          <Link style={{textDecoration: "none", color: "blue"}} to="/components/headings" >Headings</Link>
-         <Link style={{textDecoration: "none", color: "blue"}} to="/components/text" >Text</Link>
+         <Link style={{textDecoration: "none", color: "blue"}} to="/components/texts" >Text</Link>
          <Link style={{textDecoration: "none", color: "blue"}} to="/components/images" >Image</Link>
         
         </div>

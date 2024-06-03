@@ -28,6 +28,14 @@
   width: 16rem;
   border-radius: 1rem;
 }
+.search-btn{
+  margin: 0rem 0rem -0.5rem -2rem;
+  border-radius: 1rem;
+}
+.search-btn:hover{
+  cursor: pointer;
+  background-color: lightblue;
+}
 .sidebar{
   display: flex;
   flex-direction: column;

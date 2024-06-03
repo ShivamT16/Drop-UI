@@ -28,7 +28,7 @@ function App() {
         <Route path="/components/cards" element={<CardDocs />} />
         <Route path="/components/headings" element={<HeadingDocs />} />
         <Route path="/components/images" element={<ImageDocs />} />
-        <Route path="/components/text" element={<TextDocs />} />
+        <Route path="/components/texts" element={<TextDocs />} />
       </Routes>
 
      </Router>

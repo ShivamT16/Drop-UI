@@ -13,7 +13,7 @@ export const Components = () => {
          <Link className="cards" to="/components/buttons" >Button</Link>
          <Link className="cards" to="/components/cards" >Card</Link>
          <Link className="cards" to="/components/headings" >Headings</Link>
-         <Link className="cards" to="/components/text" >Text</Link>
+         <Link className="cards" to="/components/texts" >Text</Link>
          <Link className="cards" to="/components/images" >Image</Link>
 
          </div>
